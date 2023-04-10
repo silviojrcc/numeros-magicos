@@ -17,8 +17,12 @@
     </header>
     <main class="p-5 bg-dark d-flex justify-content-center align-items-center">
         <div class="container text-center p-5">
-            <input class="form-control form-control-lg mb-4" type="number" placeholder="Poné aquí tu numero">
-            <button class="btn btn-outline-primary">Comenzar Juego!</button>
+            <div class="resultado text-light mb-5"></div>
+            <button class="boton-comenzar-juego btn btn-outline-primary">Comenzar nuevo Juego!</button>
+            <form class="d-none formulario" action="">
+                <input name="numero" class="form-control form-control-lg mb-4" type="number" placeholder="Poné aquí tu numero">
+                <button class="boton-adivinar btn btn-outline-primary">Adivinar numero!</button>
+            </form>           
         </div>
     </main>
     <footer class="text-center p-4 bg-black">
